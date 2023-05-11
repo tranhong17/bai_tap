@@ -35,11 +35,6 @@ public class MovablePoint implements Movable{
 
     @Override
     public String toString() {
-        return "OOP.b6_3.MovablePoint{" +
-                "x=" + x +
-                ", y=" + y +
-                ", xSpeed=" + xSpeed +
-                ", ySpeed=" + ySpeed +
-                '}';
+        return String.format("(%d, %d) speed=(%d, %d)", x, y, xSpeed, ySpeed);
     }
 }
