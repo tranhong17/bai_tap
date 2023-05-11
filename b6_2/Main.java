@@ -4,16 +4,14 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-        ArrayList<GeometricObject> ge = new ArrayList<>();
+       GeometricObject ger = new Circle(5);
+        GeometricObject g = new Rectangle(2,3);
 
-        Circle cr = new Circle(4);
-        Rectangle re = new Rectangle(2, 3);
-        ge.add(cr);
-        ge.add(re);
+        System.out.println("chu vi: " + ger.getArea());
+        System.out.println("dien tich: " + ger.getPerimeter());
 
-        for(GeometricObject g : ge){
-            System.out.println(g);
-        }
+        System.out.println("chu vi: " + g.getArea());
+        System.out.println("dien tich: " + g.getPerimeter());
     }
 
 }
