@@ -1,0 +1,9 @@
+1. Factory Method:
+Ý tưởng: 1 class cha tạo ra nhiều class con trả về đối tượng tương ứng.
+2. Abstract Factory Pattern Method:
+Ý tưởng: 1 class có thể tạo ra các đối tượng liên quan mà không chỉ định đến class cụ thể.
+3. Builder
+Ý tưởng: 1 class có thể tham số điều khiến các đối tượng.
+4. Prototype
+Ý tưởng: Tạo 1 đối tượng mới cùng 1 class và đi qua các trường của các đối tượng ban đầu và sao chép các giá trị của chúng sang đối tượng.
+5. Singleton
